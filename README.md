@@ -21,4 +21,8 @@ mvn spring-boot:run
 http://localhost:8743/api/page
 ```
 
-#### 
+#### Change the serialzer in the application.properties
+
+```
+spring.mvc.converters.preferred-json-mapper=gson -> NOT WORKING
+```
